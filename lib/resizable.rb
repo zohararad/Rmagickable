@@ -1,12 +1,8 @@
-require 'RMagick'
-include Magick
-
 # = Resizable
 # === Rmagick image resizing module
 #
 # :title:Resizable
 # Author:: Zohar Arad
-# Requires:: RMagic
 
 module Resizable
   # enable Rmagickable::ClassMethods when plugin is first included
