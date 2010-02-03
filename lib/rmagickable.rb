@@ -12,8 +12,9 @@ module Rmagickable
   # include Rmagickable modules
   include Resizable
   include Buttonable
+  include Textable
   def self.included(base)
-    base.extend(Resizable::ClassMethods,Buttonable::ClassMethods)
+    base.extend(Resizable::ClassMethods,Buttonable::ClassMethods,Textable::ClassMethods)
   end
   
   def self.reverse(orig)
